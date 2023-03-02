@@ -1,5 +1,3 @@
-// @todo: This should live in a character service
-
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument } from 'mongoose';
 

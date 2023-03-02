@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { CharacterModule } from './character/character.module';
+
+import { CharacterModule } from './resources/character/character.module';
 
 import ENVIRONMENT from './config/env';
 
