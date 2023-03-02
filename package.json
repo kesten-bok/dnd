@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start:dev": "npx lerna run start:dev"
+    "start:dev": "lerna run start:dev",
+    "clean": "lerna clean --yes"
   },
   "devDependencies": {
     "lerna": "^6.5.1"
